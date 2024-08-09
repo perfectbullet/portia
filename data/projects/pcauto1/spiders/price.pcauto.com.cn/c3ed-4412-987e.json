@@ -1,0 +1,124 @@
+{
+    "extractors": {}, 
+    "id": "c3ed-4412-987e", 
+    "name": "__", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "fd0d-4e0c-ab72#parent", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "0001-417a-b5e1", 
+                    "selector": ".-ml-4", 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": "fd0d-4e0c-ab72#parent", 
+                    "id": "fd0d-4e0c-ab72", 
+                    "item_container": true, 
+                    "repeated": true, 
+                    "required": [], 
+                    "schema_id": "0001-417a-b5e1", 
+                    "selector": "a.w-full", 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        "li.mb-3:nth-child(1) > .relative > .flex-col > .w-full > .absolute", 
+                        "li.mb-3:nth-child(2) > .relative > .flex-col > .w-full > .absolute", 
+                        ".mb-3:nth-child(7) > .relative > .flex-col > .w-full > .absolute"
+                    ], 
+                    "container_id": "fd0d-4e0c-ab72", 
+                    "data": {
+                        "ac97-4d8f-a97a": {
+                            "attribute": "src", 
+                            "extractors": {}, 
+                            "field": "a505-4bd0-8a3e", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "6bc7-4354-884a", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": "a.w-full > .w-full > .absolute", 
+                    "tagid": null, 
+                    "xpath": "//a[contains(concat(\" \", @class, \" \"), \" w-full \")]/*[contains(concat(\" \", @class, \" \"), \" w-full \")]/*[contains(concat(\" \", @class, \" \"), \" absolute \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "li.mb-3:nth-child(1) > .relative > .flex-col > .-mt-2"
+                    ], 
+                    "container_id": "fd0d-4e0c-ab72", 
+                    "data": {
+                        "9567-40de-b6e4": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "a671-46e2-b386", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "2d9a-4938-be90", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": "a.w-full > .-mt-2", 
+                    "tagid": null, 
+                    "xpath": "//a[contains(concat(\" \", @class, \" \"), \" w-full \")]/*[contains(concat(\" \", @class, \" \"), \" -mt-2 \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "li.mb-3:nth-child(1) > .relative > .flex-col > .mt-1"
+                    ], 
+                    "container_id": "fd0d-4e0c-ab72", 
+                    "data": {
+                        "bbab-42c3-b6da": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "187a-4757-8fa0", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "2fc6-456e-8c6d", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": "a.w-full > .mt-1", 
+                    "tagid": null, 
+                    "xpath": "//a[contains(concat(\" \", @class, \" \"), \" w-full \")]/*[contains(concat(\" \", @class, \" \"), \" mt-1 \")]"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "0001-417a-b5e1", 
+    "spider": "price.pcauto.com.cn", 
+    "url": "https://price.pcauto.com.cn/", 
+    "version": "0.13.3"
+}

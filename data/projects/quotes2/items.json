@@ -1,0 +1,28 @@
+{
+    "a3eb-4bd6-ac3d": {
+        "fields": {
+            "7cd3-4927-a79b": {
+                "id": "7cd3-4927-a79b", 
+                "name": "words", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "a1f6-4bd6-b40d": {
+                "id": "a1f6-4bd6-b40d", 
+                "name": "author", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "3dbd-4484-9100": {
+                "id": "3dbd-4484-9100", 
+                "name": "taglist", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }
+        }, 
+        "name": "Quotes to Scrape"
+    }
+}

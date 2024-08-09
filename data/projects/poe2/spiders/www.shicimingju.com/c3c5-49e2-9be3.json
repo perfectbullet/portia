@@ -1,0 +1,98 @@
+{
+    "extractors": {}, 
+    "id": "c3c5-49e2-9be3", 
+    "name": "_", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "35f5-41ee-bebb#parent", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "55e3-4131-8e71", 
+                    "selector": "#main_left > div", 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": "35f5-41ee-bebb#parent", 
+                    "id": "35f5-41ee-bebb", 
+                    "item_container": true, 
+                    "repeated": true, 
+                    "required": [], 
+                    "schema_id": "55e3-4131-8e71", 
+                    "selector": ".mark_card", 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".mark_card:nth-child(1) > a > img", 
+                        ".mark_card:nth-child(2) > a > img"
+                    ], 
+                    "container_id": "35f5-41ee-bebb", 
+                    "data": {
+                        "68c3-4133-9f6d": {
+                            "attribute": "src", 
+                            "extractors": {}, 
+                            "field": "0833-42db-a9ff", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "00a8-4024-b88e", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": ".mark_card > a > img", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" mark_card \")]/a/img"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".mark_card:nth-child(1) > h3"
+                    ], 
+                    "container_id": "35f5-41ee-bebb", 
+                    "data": {
+                        "8897-4c61-8bf7": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "ff72-459f-881d", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "405f-46ee-9fd5", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": ".mark_card > h3", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" mark_card \")]/h3"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "55e3-4131-8e71", 
+    "spider": "www.shicimingju.com", 
+    "url": "https://www.shicimingju.com/", 
+    "version": "0.13.3"
+}

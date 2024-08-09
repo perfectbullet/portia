@@ -1,0 +1,57 @@
+{
+    "extractors": {}, 
+    "id": "369d-4867-a6cf", 
+    "name": "Quotes to Scrape", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "01b0-4e43-87db", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "18bc-44e3-abda", 
+                    "selector": ".quote:nth-child(1)", 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".quote:nth-child(1) > .text"
+                    ], 
+                    "container_id": "01b0-4e43-87db", 
+                    "data": {
+                        "0662-4363-b7cb": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "329a-42fb-b824", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "106d-4a9b-9c2e", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": ".quote:nth-child(1) > .text", 
+                    "tagid": null, 
+                    "xpath": "//*[1][contains(concat(\" \", @class, \" \"), \" quote \")]/*[contains(concat(\" \", @class, \" \"), \" text \")]"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "18bc-44e3-abda", 
+    "spider": "quotes.toscrape.com", 
+    "url": "https://quotes.toscrape.com/", 
+    "version": "0.13.3"
+}

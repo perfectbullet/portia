@@ -1,0 +1,123 @@
+{
+    "extractors": {}, 
+    "id": "e846-4e4b-a0b3", 
+    "name": "page_list", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "ea95-4e5c-a3a5#parent", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "76ab-487d-8293", 
+                    "selector": "#main_left > div", 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": "ea95-4e5c-a3a5#parent", 
+                    "id": "ea95-4e5c-a3a5", 
+                    "item_container": true, 
+                    "repeated": true, 
+                    "required": [], 
+                    "schema_id": "76ab-487d-8293", 
+                    "selector": ".mark_card", 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".mark_card:nth-child(1) > h3", 
+                        ".mark_card:nth-child(2) > h3"
+                    ], 
+                    "container_id": "ea95-4e5c-a3a5", 
+                    "data": {
+                        "b93e-4905-b634": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "da11-48d9-a911", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "8219-46ce-9877", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": ".mark_card > h3", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" mark_card \")]/h3"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".mark_card:nth-child(1) > a > img"
+                    ], 
+                    "container_id": "ea95-4e5c-a3a5", 
+                    "data": {
+                        "ce1a-40a8-ac39": {
+                            "attribute": "src", 
+                            "extractors": {}, 
+                            "field": "8e77-4d7d-9c9c", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "0a4c-420e-b64c", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": ".mark_card > a > img", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" mark_card \")]/a/img"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".mark_card:nth-child(1) > a > img"
+                    ], 
+                    "container_id": "ea95-4e5c-a3a5", 
+                    "data": {
+                        "805b-45a5-9ebb": {
+                            "attribute": "src", 
+                            "extractors": {}, 
+                            "field": "49c5-4743-94a7", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "3097-42fc-9b16", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": ".mark_card > a > img", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" mark_card \")]/a/img"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "76ab-487d-8293", 
+    "spider": "www.shicimingju.com", 
+    "url": "https://www.shicimingju.com/", 
+    "version": "0.13.3"
+}

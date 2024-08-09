@@ -1,0 +1,11 @@
+<div class="project-list-container">
+    <img src="/assets/images/portia-logo.svg" alt="Portia logo">
+
+    <h3>你想爬取啥子?</h3>
+    {{create-project-button projects=model}}
+    {{#if model}}
+        <p>记得选一个项目哈</p>
+
+        {{project-list projects=model}}
+    {{/if}}
+</div>

@@ -1,0 +1,16 @@
+{
+    "18bc-44e3-abda": {
+        "auto_created": true, 
+        "fields": {
+            "329a-42fb-b824": {
+                "auto_created": true, 
+                "id": "329a-42fb-b824", 
+                "name": "field1", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }
+        }, 
+        "name": "Quotes to Scrape"
+    }
+}

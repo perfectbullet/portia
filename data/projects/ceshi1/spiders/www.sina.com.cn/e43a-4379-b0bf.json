@@ -1,0 +1,32 @@
+{
+    "extractors": {}, 
+    "id": "e43a-4379-b0bf", 
+    "name": "", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "5c42-412a-8e36", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "0d86-45a5-b702", 
+                    "selector": null, 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "0d86-45a5-b702", 
+    "spider": "www.sina.com.cn", 
+    "url": "https://www.sina.com.cn/", 
+    "version": "0.13.3"
+}

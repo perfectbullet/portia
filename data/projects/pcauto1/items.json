@@ -1,0 +1,35 @@
+{
+    "0001-417a-b5e1": {
+        "fields": {
+            "a505-4bd0-8a3e": {
+                "id": "a505-4bd0-8a3e", 
+                "name": "car_img", 
+                "required": false, 
+                "type": "image", 
+                "vary": false
+            }, 
+            "a671-46e2-b386": {
+                "id": "a671-46e2-b386", 
+                "name": "car_name", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "187a-4757-8fa0": {
+                "id": "187a-4757-8fa0", 
+                "name": "car_price", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "f6e5-497d-a15c": {
+                "id": "f6e5-497d-a15c", 
+                "name": "inner_params", 
+                "required": false, 
+                "type": "url", 
+                "vary": false
+            }
+        }, 
+        "name": "__"
+    }
+}

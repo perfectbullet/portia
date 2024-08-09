@@ -1,0 +1,42 @@
+{
+    "edf2-4205-9137": {
+        "fields": {
+            "6d3d-468f-8580": {
+                "id": "6d3d-468f-8580", 
+                "name": "headerofpoem", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "b6e3-4656-a743": {
+                "id": "b6e3-4656-a743", 
+                "name": "author_name", 
+                "required": false, 
+                "type": "url", 
+                "vary": false
+            }, 
+            "0788-44b9-baa5": {
+                "id": "0788-44b9-baa5", 
+                "name": "dynasty", 
+                "required": false, 
+                "type": "url", 
+                "vary": false
+            }, 
+            "ab26-4e2c-abdd": {
+                "id": "ab26-4e2c-abdd", 
+                "name": "pomcontent", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "77e3-41e4-8ded": {
+                "id": "77e3-41e4-8ded", 
+                "name": "tags", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }
+        }, 
+        "name": "good_poe"
+    }
+}

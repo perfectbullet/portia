@@ -1,0 +1,32 @@
+{
+    "extractors": {}, 
+    "id": "d19a-441a-a805", 
+    "name": "spider2", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "a3a8-4074-8080", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "bd58-4d3a-bd32", 
+                    "selector": null, 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "bd58-4d3a-bd32", 
+    "spider": "www.autohome.com.cn", 
+    "url": "https://www.autohome.com.cn/suv/#pvareaid=3311952", 
+    "version": "0.13.3"
+}

@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <script src="https://img.shicimingju.com/newpage/js/all.js"></script>
+    <meta charset="UTF-8">
+    <title>诗词分类_诗词名句网</title>
+    <meta name="viewport" content="width=device-width,user-scalable=no" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="https://img.shicimingju.com/public/css/www_v3.css">
+    <link rel="stylesheet" href="https://img.shicimingju.com/public/css/font_576092_m2icqcebp7evzpvi.css">
+    <script src="https://img.shicimingju.com/public/js/device.js"></script>
+    <script src="https://img.shicimingju.com/public/js/jq.js"></script>
+    <script src="https://img.shicimingju.com/public/js/www_v3.js"></script>
+</head>
+<body>
+<div id="top_bar">
+    <div id="top_bar_main">
+        <div id="top_left">
+            <a href="/"><img src="https://img.shicimingju.com/public/image/logo.png" id="logo"/></a>
+            <div id="top_left_menu">
+                <ul>
+                    <li><a href="/">首页</a></li>
+                    <li><a href="/shicimark">分类</a></li>
+                    <li><a href="/category/all">作者</a></li>
+                    <li><a href="/paiming">排行榜</a></li>
+                    <li><a href="/cate?cate_id=4">课本古诗</a></li>
+                    <li><a href="/cipai/index.html">词牌名</a></li>
+                    <li><a href="/hecheng/index.html">合称</a></li>
+                    <li><a href="/book/">古籍</a></li>
+                </ul>
+            </div>
+            <div style="clear: both"></div>
+        </div>
+        <div id="top_right">
+            <div id="input_div" style="margin-top: 20px;" >
+                <input type="text" name="kw" id="search_input" placeholder="" autocomplete="off" value="">
+                <a href="javascript:doSearch();"><img src="https://img.shicimingju.com/public/image/web_search.png" class="www-icon"></a>
+                <div style="clear: both"></div>
+            </div>
+            <div id="tip_result" class="card">
+                <ul>
+                </ul>
+                <div id="tip_content">
+                </div>
+            </div>
+        </div>
+        <div style="clear: both;"></div>
+    </div>
+</div>
+
+<div id="nav-top"><a href="/">主页</a><span class="nav-arrow"></span><a href="/shicimark/">诗词分类</a></div>
+
+<div id="main">
+    <div id="main_left">
+        <div style="margin-bottom: 10px;">
+                        <div class="mark_card">
+                <a href="/shicimark/tianyuanshi.html" target="_blank"><img src="/pics/600/600/rand/1568897188651.jpg"></a>
+                <h3><a href="/shicimark/tianyuanshi.html" target="_blank">田园诗</a></h3>
+                <ul>
+                                        <li><a href="/chaxun/list/4553.html" target="_blank">《新凉》<span>徐玑</span></a></li>
+                                        <li><a href="/chaxun/list/5174.html" target="_blank">《野老歌》<span>张籍</span></a></li>
+                                        <li><a href="/chaxun/list/13842.html" target="_blank">《信南山》<span>诗经</span></a></li>
+                                    </ul>
+            </div>
+                        <div class="mark_card">
+                <a href="/shicimark/sonbieshi.html" target="_blank"><img src="/pics/600/600/rand/1568897283851.jpg"></a>
+                <h3><a href="/shicimark/sonbieshi.html" target="_blank">送别诗</a></h3>
+                <ul>
+                                        <li><a href="/chaxun/list/3060.html" target="_blank">《赠汪伦》<span>李白</span></a></li>
+                                        <li><a href="/chaxun/list/3296.html" target="_blank">《山中送别》<span>王维</span></a></li>
+                                        <li><a href="/chaxun/list/3316.html" target="_blank">《黄鹤楼送孟浩然之广陵》<span>李白</span></a></li>
+                                    </ul>
+            </div>
+                        <div class="mark_card">
+                <a href="/shicimark/shanshuishi.html" target="_blank"><img src="/pics/600/600/rand/1568897303315.jpg"></a>
+                <h3><a href="/shicimark/shanshuishi.html" target="_blank">山水诗</a></h3>
+                <ul>
+                                        <li><a href="/chaxun/list/2875.html" target="_blank">《望庐山瀑布》<span>李白</span></a></li>
+                                        <li><a href="/chaxun/list/3165.html" target="_blank">《登鹳雀楼》<span>王之涣</span></a></li>
+                                        <li><a href="/chaxun/list/3341.html" target="_blank">《江雪》<span>柳宗元</span></a></li>
+                                    </ul>
+            </div>
+                        <div class="mark_card">
+                <a href="/shicimark/aiqingshi.html" target="_blank"><img src="/pics/600/600/rand/1568897323294.jpg"></a>
+                <h3><a href="/shicimark/aiqingshi.html" target="_blank">爱情诗</a></h3>
+                <ul>
+                                        <li><a href="/chaxun/list/3227.html" target="_blank">《咏苎萝山/西施》<span>李白</span></a></li>
+                                        <li><a href="/chaxun/list/3733.html" target="_blank">《雨霖铃·寒蝉凄切》<span>柳永</span></a></li>
+                                        <li><a href="/chaxun/list/4179.html" target="_blank">《寄人》<span>张泌</span></a></li>
+                                    </ul>
+            </div>
+                        <div class="mark_card">
+                <a href="/shicimark/lizhishi.html" target="_blank"><img src="/pics/600/600/rand/1568897399462.jpg"></a>
+                <h3><a href="/shicimark/lizhishi.html" target="_blank">励志诗</a></h3>
+                <ul>
+                                        <li><a href="/chaxun/list/3121.html" target="_blank">《扬子江》<span>文天祥</span></a></li>
+                                        <li><a href="/chaxun/list/3165.html" target="_blank">《登鹳雀楼》<span>王之涣</span></a></li>
+                                        <li><a href="/chaxun/list/3184.html" target="_blank">《夏日绝句》<span>李清照</span></a></li>
+                                    </ul>
+            </div>
+                        <div class="mark_card">
+                <a href="/shicimark/biansaishi.html" target="_blank"><img src="/pics/600/600/rand/1568897445587.jpg"></a>
+                <h3><a href="/shicimark/biansaishi.html" target="_blank">边塞诗</a></h3>
+                <ul>
+                                        <li><a href="/chaxun/list/2973.html" target="_blank">《出塞》<span>王昌龄</span></a></li>
+                                        <li><a href="/chaxun/list/3179.html" target="_blank">《凉州词》<span>王翰</span></a></li>
+                                        <li><a href="/chaxun/list/3222.html" target="_blank">《从军行》<span>王昌龄</span></a></li>
+                                    </ul>
+            </div>
+                        <div class="mark_card">
+                <a href="/shicimark/aiguoshi.html" target="_blank"><img src="/pics/600/600/rand/1568897469077.jpg"></a>
+                <h3><a href="/shicimark/aiguoshi.html" target="_blank">爱国诗</a></h3>
+                <ul>
+                                        <li><a href="/chaxun/list/2973.html" target="_blank">《出塞》<span>王昌龄</span></a></li>
+                                        <li><a href="/chaxun/list/3121.html" target="_blank">《扬子江》<span>文天祥</span></a></li>
+                                        <li><a href="/chaxun/list/3142.html" target="_blank">《示儿》<span>陆游</span></a></li>
+                                    </ul>
+            </div>
+                        <div class="mark_card">
+                <a href="/shicimark/diaowangshi.html" target="_blank"><img src="/pics/600/600/rand/1568897605440.jpg"></a>
+                <h3><a href="/shicimark/diaowangshi.html" target="_blank">悼亡诗</a></h3>
+                <ul>
+                                        <li><a href="/chaxun/list/10460.html" target="_blank">《黄鸟》<span>诗经</span></a></li>
+                                        <li><a href="/chaxun/list/11191.html" target="_blank">《蓼莪》<span>诗经</span></a></li>
+                                        <li><a href="/chaxun/list/11396.html" target="_blank">《绿衣》<span>诗经</span></a></li>
+                                    </ul>
+            </div>
+                        <div class="mark_card">
+                <a href="/shicimark/zhanzhengshi.html" target="_blank"><img src="/pics/600/600/rand/1568897614043.jpg"></a>
+                <h3><a href="/shicimark/zhanzhengshi.html" target="_blank">战争诗</a></h3>
+                <ul>
+                                        <li><a href="/chaxun/list/2973.html" target="_blank">《出塞》<span>王昌龄</span></a></li>
+                                        <li><a href="/chaxun/list/3179.html" target="_blank">《凉州词》<span>王翰</span></a></li>
+                                        <li><a href="/chaxun/list/3261.html" target="_blank">《赤壁》<span>杜牧</span></a></li>
+                                    </ul>
+            </div>
+                        <div class="mark_card">
+                <a href="/shicimark/youqingshi.html" target="_blank"><img src="/pics/600/600/rand/1568897768635.jpg"></a>
+                <h3><a href="/shicimark/youqingshi.html" target="_blank">友情诗</a></h3>
+                <ul>
+                                        <li><a href="/chaxun/list/3060.html" target="_blank">《赠汪伦》<span>李白</span></a></li>
+                                        <li><a href="/chaxun/list/3296.html" target="_blank">《山中送别》<span>王维</span></a></li>
+                                        <li><a href="/chaxun/list/3316.html" target="_blank">《黄鹤楼送孟浩然之广陵》<span>李白</span></a></li>
+                                    </ul>
+            </div>
+                        <div class="mark_card">
+                <a href="/shicimark/guiyuanshi.html" target="_blank"><img src="/pics/600/600/rand/1568897788424.jpg"></a>
+                <h3><a href="/shicimark/guiyuanshi.html" target="_blank">闺怨诗</a></h3>
+                <ul>
+                                        <li><a href="/chaxun/list/3281.html" target="_blank">《春怨》<span>益嘉运</span></a></li>
+                                        <li><a href="/chaxun/list/3638.html" target="_blank">《声声慢·寻寻觅觅》<span>李清照</span></a></li>
+                                        <li><a href="/chaxun/list/6319.html" target="_blank">《望江南·梳洗罢》<span>温庭筠</span></a></li>
+                                    </ul>
+            </div>
+                        <div class="mark_card">
+                <a href="/shicimark/qingmingjie.html" target="_blank"><img src="/pics/600/600/rand/1568897814141.jpg"></a>
+                <h3><a href="/shicimark/qingmingjie.html" target="_blank">清明节</a></h3>
+                <ul>
+                                        <li><a href="/chaxun/list/4014.html" target="_blank">《清明》<span>杜牧</span></a></li>
+                                        <li><a href="/chaxun/list/6035.html" target="_blank">《清明》<span>黄庭坚</span></a></li>
+                                        <li><a href="/chaxun/list/6044.html" target="_blank">《清明》<span>高翥</span></a></li>
+                                    </ul>
+            </div>
+                        <div class="mark_card">
+                <a href="/shicimark/duanwujie.html" target="_blank"><img src="/pics/600/600/rand/1568897856371.jpg"></a>
+                <h3><a href="/shicimark/duanwujie.html" target="_blank">端午节</a></h3>
+                <ul>
+                                        <li><a href="/chaxun/list/32217.html" target="_blank">《减字木兰花 竞渡》<span>黄裳</span></a></li>
+                                        <li><a href="/chaxun/list/117964.html" target="_blank">《端午日赐衣》<span>杜甫</span></a></li>
+                                        <li><a href="/chaxun/list/254159.html" target="_blank">《竞渡歌》<span>张建封</span></a></li>
+                                    </ul>
+            </div>
+                        <div class="mark_card">
+                <a href="/shicimark/zhongqiujie.html" target="_blank"><img src="/pics/600/600/rand/1568897878305.jpg"></a>
+                <h3><a href="/shicimark/zhongqiujie.html" target="_blank">中秋节</a></h3>
+                <ul>
+                                        <li><a href="/chaxun/list/5849.html" target="_blank">《阳关曲 中秋月》<span>苏轼</span></a></li>
+                                        <li><a href="/chaxun/list/24758.html" target="_blank">《八月十五夜赠张功曹》<span>韩愈</span></a></li>
+                                        <li><a href="/chaxun/list/29527.html" target="_blank">《十五夜望月》<span>王建</span></a></li>
+                                    </ul>
+            </div>
+                        <div class="mark_card">
+                <a href="/shicimark/qixijie.html" target="_blank"><img src="/pics/600/600/rand/1568897899642.jpg"></a>
+                <h3><a href="/shicimark/qixijie.html" target="_blank">七夕节</a></h3>
+                <ul>
+                                        <li><a href="/chaxun/list/5839.html" target="_blank">《七夕》<span>杨朴</span></a></li>
+                                        <li><a href="/chaxun/list/32856.html" target="_blank">《行香子·草际鸣蛩》<span>李清照</span></a></li>
+                                        <li><a href="/chaxun/list/34761.html" target="_blank">《鹊桥仙·纤云弄巧》<span>秦观</span></a></li>
+                                    </ul>
+            </div>
+                        <div class="mark_card">
+                <a href="/shicimark/chongyangjie.html" target="_blank"><img src="/pics/600/600/rand/1568897910792.jpg"></a>
+                <h3><a href="/shicimark/chongyangjie.html" target="_blank">重阳节</a></h3>
+                <ul>
+                                        <li><a href="/chaxun/list/3055.html" target="_blank">《九月九日忆山东兄弟》<span>王维</span></a></li>
+                                        <li><a href="/chaxun/list/3627.html" target="_blank">《醉花阴·薄雾浓云愁永昼》<span>李清照</span></a></li>
+                                        <li><a href="/chaxun/list/3911.html" target="_blank">《行军九日思长安故园》<span>岑参</span></a></li>
+                                    </ul>
+            </div>
+                        <div class="mark_card">
+                <a href="/shicimark/hanshijie.html" target="_blank"><img src="/pics/600/600/rand/1568897945565.jpg"></a>
+                <h3><a href="/shicimark/hanshijie.html" target="_blank">寒食节</a></h3>
+                <ul>
+                                        <li><a href="/chaxun/list/4029.html" target="_blank">《寒食》<span>韩翃</span></a></li>
+                                        <li><a href="/chaxun/list/6026.html" target="_blank">《寒食书事》<span>赵鼎</span></a></li>
+                                        <li><a href="/chaxun/list/24748.html" target="_blank">《寒食夜》<span>韩偓</span></a></li>
+                                    </ul>
+            </div>
+                        <div class="mark_card">
+                <a href="/shicimark/yuanxiaojie.html" target="_blank"><img src="/pics/600/600/rand/1568897987725.jpg"></a>
+                <h3><a href="/shicimark/yuanxiaojie.html" target="_blank">元宵节</a></h3>
+                <ul>
+                                        <li><a href="/chaxun/list/6414.html" target="_blank">《永遇乐·落日熔金》<span>李清照</span></a></li>
+                                        <li><a href="/chaxun/list/27389.html" target="_blank">《正月十五闻京有灯恨不得观》<span>李商隐</span></a></li>
+                                        <li><a href="/chaxun/list/29331.html" target="_blank">《正月十五夜》<span>苏味道</span></a></li>
+                                    </ul>
+            </div>
+                        <div class="mark_card">
+                <a href="/shicimark/chunjie.html" target="_blank"><img src="/pics/600/600/rand/1568898023156.jpg"></a>
+                <h3><a href="/shicimark/chunjie.html" target="_blank">春节</a></h3>
+                <ul>
+                                        <li><a href="/chaxun/list/3483.html" target="_blank">《元日》<span>王安石</span></a></li>
+                                        <li><a href="/chaxun/list/4516.html" target="_blank">《守岁诗》<span>苏轼</span></a></li>
+                                        <li><a href="/chaxun/list/22177.html" target="_blank">《除夜有怀》<span>崔涂</span></a></li>
+                                    </ul>
+            </div>
+                        <div class="mark_card">
+                <a href="/shicimark/miaoxiechuntian.html" target="_blank"><img src="/pics/600/600/rand/1568899663665.jpg"></a>
+                <h3><a href="/shicimark/miaoxiechuntian.html" target="_blank">描写春天</a></h3>
+                <ul>
+                                        <li><a href="/chaxun/list/2880.html" target="_blank">《江南春》<span>杜牧</span></a></li>
+                                        <li><a href="/chaxun/list/2961.html" target="_blank">《天净沙 春》<span>白朴</span></a></li>
+                                        <li><a href="/chaxun/list/3075.html" target="_blank">《忆江南·江南好》<span>白居易</span></a></li>
+                                    </ul>
+            </div>
+                        <div class="mark_card">
+                <a href="/shicimark/miaoxiexiatiantian.html" target="_blank"><img src="/pics/600/600/rand/1568899683340.jpg"></a>
+                <h3><a href="/shicimark/miaoxiexiatiantian.html" target="_blank">描写夏天</a></h3>
+                <ul>
+                                        <li><a href="/chaxun/list/3390.html" target="_blank">《晓出净慈寺送林子方》<span>杨万里</span></a></li>
+                                        <li><a href="/chaxun/list/4511.html" target="_blank">《客中初夏》<span>司马光</span></a></li>
+                                        <li><a href="/chaxun/list/4596.html" target="_blank">《初夏游张园》<span>戴敏</span></a></li>
+                                    </ul>
+            </div>
+                        <div class="mark_card">
+                <a href="/shicimark/miaoxieqiutian.html" target="_blank"><img src="/pics/600/600/rand/1568941538910.jpg"></a>
+                <h3><a href="/shicimark/miaoxieqiutian.html" target="_blank">描写秋天</a></h3>
+                <ul>
+                                        <li><a href="/chaxun/list/2967.html" target="_blank">《天净沙 秋》<span>白朴</span></a></li>
+                                        <li><a href="/chaxun/list/3086.html" target="_blank">《天净沙·秋思》<span>马致远</span></a></li>
+                                        <li><a href="/chaxun/list/3092.html" target="_blank">《山行》<span>杜牧</span></a></li>
+                                    </ul>
+            </div>
+                        <div class="mark_card">
+                <a href="/shicimark/miaoxiedongtian.html" target="_blank"><img src="/pics/600/600/rand/1568941577136.jpg"></a>
+                <h3><a href="/shicimark/miaoxiedongtian.html" target="_blank">描写冬天</a></h3>
+                <ul>
+                                        <li><a href="/chaxun/list/3030.html" target="_blank">《逢雪宿芙蓉山主人》<span>刘长卿</span></a></li>
+                                        <li><a href="/chaxun/list/3341.html" target="_blank">《江雪》<span>柳宗元</span></a></li>
+                                        <li><a href="/chaxun/list/3946.html" target="_blank">《十二月十五夜》<span>袁枚</span></a></li>
+                                    </ul>
+            </div>
+                        <div class="mark_card">
+                <a href="/shicimark/miaoxieyu.html" target="_blank"><img src="/pics/600/600/rand/1568941618401.jpg"></a>
+                <h3><a href="/shicimark/miaoxieyu.html" target="_blank">描写雨</a></h3>
+                <ul>
+                                        <li><a href="/chaxun/list/2993.html" target="_blank">《剑门道中遇微雨》<span>陆游</span></a></li>
+                                        <li><a href="/chaxun/list/3112.html" target="_blank">《春夜喜雨》<span>杜甫</span></a></li>
+                                        <li><a href="/chaxun/list/3989.html" target="_blank">《早春呈水部张十八员外(初春小雨)》<span>韩愈</span></a></li>
+                                    </ul>
+            </div>
+                        <div class="mark_card">
+                <a href="/shicimark/miaoxiexue.html" target="_blank"><img src="/pics/600/600/rand/1568941639963.jpg"></a>
+                <h3><a href="/shicimark/miaoxiexue.html" target="_blank">描写雪</a></h3>
+                <ul>
+                                        <li><a href="/chaxun/list/3030.html" target="_blank">《逢雪宿芙蓉山主人》<span>刘长卿</span></a></li>
+                                        <li><a href="/chaxun/list/3341.html" target="_blank">《江雪》<span>柳宗元</span></a></li>
+                                        <li><a href="/chaxun/list/3946.html" target="_blank">《十二月十五夜》<span>袁枚</span></a></li>
+                                    </ul>
+            </div>
+                        <div class="mark_card">
+                <a href="/shicimark/miaoxiefeng.html" target="_blank"><img src="/pics/600/600/rand/1568941705452.jpg"></a>
+                <h3><a href="/shicimark/miaoxiefeng.html" target="_blank">描写风</a></h3>
+                <ul>
+                                        <li><a href="/chaxun/list/3030.html" target="_blank">《逢雪宿芙蓉山主人》<span>刘长卿</span></a></li>
+                                        <li><a href="/chaxun/list/3755.html" target="_blank">《咏柳》<span>贺知章</span></a></li>
+                                        <li><a href="/chaxun/list/3876.html" target="_blank">《秋风引》<span>刘禹锡</span></a></li>
+                                    </ul>
+            </div>
+                        <div class="mark_card">
+                <a href="/shicimark/miaoxiehua.html" target="_blank"><img src="/pics/600/600/rand/1568942151857.jpg"></a>
+                <h3><a href="/shicimark/miaoxiehua.html" target="_blank">描写花</a></h3>
+                <ul>
+                                        <li><a href="/chaxun/list/2870.html" target="_blank">《大林寺桃花》<span>白居易</span></a></li>
+                                        <li><a href="/chaxun/list/3506.html" target="_blank">《宿新市徐公店》<span>杨万里</span></a></li>
+                                        <li><a href="/chaxun/list/4466.html" target="_blank">《落花》<span>朱淑真</span></a></li>
+                                    </ul>
+            </div>
+                        <div class="mark_card">
+                <a href="/shicimark/miaoxiemeihua.html" target="_blank"><img src="/pics/600/600/rand/1568942161636.jpg"></a>
+                <h3><a href="/shicimark/miaoxiemeihua.html" target="_blank">描写梅花</a></h3>
+                <ul>
+                                        <li><a href="/chaxun/list/3003.html" target="_blank">《梅花》<span>王安石</span></a></li>
+                                        <li><a href="/chaxun/list/3400.html" target="_blank">《早梅》<span>柳宗元</span></a></li>
+                                        <li><a href="/chaxun/list/4833.html" target="_blank">《早梅》<span>齐已</span></a></li>
+                                    </ul>
+            </div>
+                        <div class="mark_card">
+                <a href="/shicimark/miaoxiehehua.html" target="_blank"><img src="/pics/600/600/rand/1568942179444.jpg"></a>
+                <h3><a href="/shicimark/miaoxiehehua.html" target="_blank">描写荷花</a></h3>
+                <ul>
+                                        <li><a href="/chaxun/list/3390.html" target="_blank">《晓出净慈寺送林子方》<span>杨万里</span></a></li>
+                                        <li><a href="/chaxun/list/20571.html" target="_blank">《采莲曲》<span>白居易</span></a></li>
+                                        <li><a href="/chaxun/list/25187.html" target="_blank">《采莲子》<span>皇甫松</span></a></li>
+                                    </ul>
+            </div>
+                        <div class="mark_card">
+                <a href="/shicimark/miaoxiejuhua.html" target="_blank"><img src="/pics/600/600/rand/1568942198951.jpg"></a>
+                <h3><a href="/shicimark/miaoxiejuhua.html" target="_blank">描写菊花</a></h3>
+                <ul>
+                                        <li><a href="/chaxun/list/3627.html" target="_blank">《醉花阴·薄雾浓云愁永昼》<span>李清照</span></a></li>
+                                        <li><a href="/chaxun/list/3911.html" target="_blank">《行军九日思长安故园》<span>岑参</span></a></li>
+                                        <li><a href="/chaxun/list/25309.html" target="_blank">《题菊花》<span>黄巢</span></a></li>
+                                    </ul>
+            </div>
+                        <div class="mark_card">
+                <a href="/shicimark/miaoxieliu.html" target="_blank"><img src="/pics/600/600/rand/1568942258538.jpg"></a>
+                <h3><a href="/shicimark/miaoxieliu.html" target="_blank">描写柳</a></h3>
+                <ul>
+                                        <li><a href="/chaxun/list/3755.html" target="_blank">《咏柳》<span>贺知章</span></a></li>
+                                        <li><a href="/chaxun/list/3989.html" target="_blank">《早春呈水部张十八员外(初春小雨)》<span>韩愈</span></a></li>
+                                        <li><a href="/chaxun/list/6240.html" target="_blank">《临江仙·白云堂前春解舞》<span>曹雪芹</span></a></li>
+                                    </ul>
+            </div>
+                        <div class="mark_card">
+                <a href="/shicimark/miaoxieyueliang.html" target="_blank"><img src="/pics/600/600/rand/1568942459685.jpg"></a>
+                <h3><a href="/shicimark/miaoxieyueliang.html" target="_blank">描写月亮</a></h3>
+                <ul>
+                                        <li><a href="/chaxun/list/3361.html" target="_blank">《宿建德江》<span>孟浩然</span></a></li>
+                                        <li><a href="/chaxun/list/3501.html" target="_blank">《静夜思》<span>李白</span></a></li>
+                                        <li><a href="/chaxun/list/3846.html" target="_blank">《竹里馆》<span>王维</span></a></li>
+                                    </ul>
+            </div>
+                        <div class="mark_card">
+                <a href="/shicimark/miaoxiema.html" target="_blank"><img src="/pics/600/600/rand/1568942553323.jpg"></a>
+                <h3><a href="/shicimark/miaoxiema.html" target="_blank">描写马</a></h3>
+                <ul>
+                                        <li><a href="/chaxun/list/8018.html" target="_blank">《白驹》<span>诗经</span></a></li>
+                                        <li><a href="/chaxun/list/10905.html" target="_blank">《駉》<span>诗经</span></a></li>
+                                        <li><a href="/chaxun/list/12914.html" target="_blank">《驷驖》<span>诗经</span></a></li>
+                                    </ul>
+            </div>
+                        <div class="mark_card">
+                <a href="/shicimark/sixiangshi.html" target="_blank"><img src="/pics/600/600/rand/1568942581695.jpg"></a>
+                <h3><a href="/shicimark/sixiangshi.html" target="_blank">思乡诗</a></h3>
+                <ul>
+                                        <li><a href="/chaxun/list/3025.html" target="_blank">《杂诗》<span>王维</span></a></li>
+                                        <li><a href="/chaxun/list/3055.html" target="_blank">《九月九日忆山东兄弟》<span>王维</span></a></li>
+                                        <li><a href="/chaxun/list/3179.html" target="_blank">《凉州词》<span>王翰</span></a></li>
+                                    </ul>
+            </div>
+                        <div class="mark_card">
+                <a href="/shicimark/sinianshi.html" target="_blank"><img src="/pics/600/600/rand/1568942741572.jpg"></a>
+                <h3><a href="/shicimark/sinianshi.html" target="_blank">思念诗</a></h3>
+                <ul>
+                                        <li><a href="/chaxun/list/3984.html" target="_blank">《春夜》<span>王安石</span></a></li>
+                                        <li><a href="/chaxun/list/4179.html" target="_blank">《寄人》<span>张泌</span></a></li>
+                                        <li><a href="/chaxun/list/4516.html" target="_blank">《守岁诗》<span>苏轼</span></a></li>
+                                    </ul>
+            </div>
+                        <div class="mark_card">
+                <a href="/shicimark/zhelishi.html" target="_blank"><img src="/pics/600/600/rand/1568942789116.jpg"></a>
+                <h3><a href="/shicimark/zhelishi.html" target="_blank">哲理诗</a></h3>
+                <ul>
+                                        <li><a href="/chaxun/list/3137.html" target="_blank">《登飞来峰》<span>王安石</span></a></li>
+                                        <li><a href="/chaxun/list/3165.html" target="_blank">《登鹳雀楼》<span>王之涣</span></a></li>
+                                        <li><a href="/chaxun/list/3301.html" target="_blank">《八阵图》<span>杜甫</span></a></li>
+                                    </ul>
+            </div>
+                        <div class="mark_card">
+                <a href="/shicimark/tangshisanbaishou.html" target="_blank"><img src="/pics/600/600/rand/1568942889621.jpg"></a>
+                <h3><a href="/shicimark/tangshisanbaishou.html" target="_blank">唐诗三百首</a></h3>
+                <ul>
+                                        <li><a href="/chaxun/list/2973.html" target="_blank">《出塞》<span>王昌龄</span></a></li>
+                                        <li><a href="/chaxun/list/3020.html" target="_blank">《春晓》<span>孟浩然</span></a></li>
+                                        <li><a href="/chaxun/list/3025.html" target="_blank">《杂诗》<span>王维</span></a></li>
+                                    </ul>
+            </div>
+                        <div class="mark_card">
+                <a href="/shicimark/songcisanbaishou.html" target="_blank"><img src="/pics/600/600/rand/1568942919798.jpg"></a>
+                <h3><a href="/shicimark/songcisanbaishou.html" target="_blank">宋词三百首</a></h3>
+                <ul>
+                                        <li><a href="/chaxun/list/3578.html" target="_blank">《渔家傲·塞下秋来风景异》<span>范仲淹</span></a></li>
+                                        <li><a href="/chaxun/list/3627.html" target="_blank">《醉花阴·薄雾浓云愁永昼》<span>李清照</span></a></li>
+                                        <li><a href="/chaxun/list/3638.html" target="_blank">《声声慢·寻寻觅觅》<span>李清照</span></a></li>
+                                    </ul>
+            </div>
+                        <div class="mark_card">
+                <a href="/shicimark/xiaoxue.html" target="_blank"><img src="/pics/600/600/rand/1568943000268.jpg"></a>
+                <h3><a href="/shicimark/xiaoxue.html" target="_blank">小学</a></h3>
+                <ul>
+                                        <li><a href="/chaxun/list/2875.html" target="_blank">《望庐山瀑布》<span>李白</span></a></li>
+                                        <li><a href="/chaxun/list/2967.html" target="_blank">《天净沙 秋》<span>白朴</span></a></li>
+                                        <li><a href="/chaxun/list/3020.html" target="_blank">《春晓》<span>孟浩然</span></a></li>
+                                    </ul>
+            </div>
+                        <div class="mark_card">
+                <a href="/shicimark/chuzhong.html" target="_blank"><img src="/pics/600/600/rand/1568943021169.jpg"></a>
+                <h3><a href="/shicimark/chuzhong.html" target="_blank">初中</a></h3>
+                <ul>
+                                        <li><a href="/chaxun/list/3086.html" target="_blank">《天净沙·秋思》<span>马致远</span></a></li>
+                                        <li><a href="/chaxun/list/3097.html" target="_blank">《清平乐·村居》<span>辛弃疾</span></a></li>
+                                        <li><a href="/chaxun/list/3131.html" target="_blank">《如梦令·常记溪亭日暮》<span>李清照</span></a></li>
+                                    </ul>
+            </div>
+                        <div class="mark_card">
+                <a href="/shicimark/gaozhong.html" target="_blank"><img src="/pics/600/600/rand/1568943032839.jpg"></a>
+                <h3><a href="/shicimark/gaozhong.html" target="_blank">高中</a></h3>
+                <ul>
+                                        <li><a href="/chaxun/list/3222.html" target="_blank">《从军行》<span>王昌龄</span></a></li>
+                                        <li><a href="/chaxun/list/3638.html" target="_blank">《声声慢·寻寻觅觅》<span>李清照</span></a></li>
+                                        <li><a href="/chaxun/list/3733.html" target="_blank">《雨霖铃·寒蝉凄切》<span>柳永</span></a></li>
+                                    </ul>
+            </div>
+                        <div class="mark_card">
+                <a href="/shicimark/wanyueshi.html" target="_blank"><img src="/pics/600/600/rand/1568943040595.jpg"></a>
+                <h3><a href="/shicimark/wanyueshi.html" target="_blank">婉约诗</a></h3>
+                <ul>
+                                        <li><a href="/chaxun/list/3075.html" target="_blank">《忆江南·江南好》<span>白居易</span></a></li>
+                                        <li><a href="/chaxun/list/3627.html" target="_blank">《醉花阴·薄雾浓云愁永昼》<span>李清照</span></a></li>
+                                        <li><a href="/chaxun/list/3638.html" target="_blank">《声声慢·寻寻觅觅》<span>李清照</span></a></li>
+                                    </ul>
+            </div>
+                        <div class="mark_card">
+                <a href="/shicimark/haofangshi.html" target="_blank"><img src="/pics/600/600/rand/1568943078401.jpg"></a>
+                <h3><a href="/shicimark/haofangshi.html" target="_blank">豪放诗</a></h3>
+                <ul>
+                                        <li><a href="/chaxun/list/3179.html" target="_blank">《凉州词》<span>王翰</span></a></li>
+                                        <li><a href="/chaxun/list/3710.html" target="_blank">《念奴娇·赤壁怀古》<span>苏轼</span></a></li>
+                                        <li><a href="/chaxun/list/6288.html" target="_blank">《菩萨蛮·平林漠漠烟如织》<span>李白</span></a></li>
+                                    </ul>
+            </div>
+                        <div class="mark_card">
+                <a href="/shicimark/muqin.html" target="_blank"><img src="/pics/600/600/rand/1568943103433.jpg"></a>
+                <h3><a href="/shicimark/muqin.html" target="_blank">母亲</a></h3>
+                <ul>
+                                        <li><a href="/chaxun/list/11084.html" target="_blank">《凯风》<span>诗经</span></a></li>
+                                        <li><a href="/chaxun/list/11191.html" target="_blank">《蓼莪》<span>诗经</span></a></li>
+                                        <li><a href="/chaxun/list/46680.html" target="_blank">《别老母》<span>黄景仁</span></a></li>
+                                    </ul>
+            </div>
+                        <div class="mark_card">
+                <a href="/shicimark/xishi.html" target="_blank"><img src="/pics/600/600/rand/1568943208623.jpg"></a>
+                <h3><a href="/shicimark/xishi.html" target="_blank">惜时</a></h3>
+                <ul>
+                                        <li><a href="/chaxun/list/3380.html" target="_blank">《春宵》<span>苏轼</span></a></li>
+                                        <li><a href="/chaxun/list/3787.html" target="_blank">《登乐游原》<span>李商隐</span></a></li>
+                                        <li><a href="/chaxun/list/4516.html" target="_blank">《守岁诗》<span>苏轼</span></a></li>
+                                    </ul>
+            </div>
+                        <div class="mark_card">
+                <a href="/shicimark/dushu.html" target="_blank"><img src="/pics/600/600/rand/1568943277891.jpg"></a>
+                <h3><a href="/shicimark/dushu.html" target="_blank">读书</a></h3>
+                <ul>
+                                        <li><a href="/chaxun/list/5164.html" target="_blank">《冬夜读书示子聿》<span>陆游</span></a></li>
+                                        <li><a href="/chaxun/list/18672.html" target="_blank">《咏史》<span>左思</span></a></li>
+                                        <li><a href="/chaxun/list/46787.html" target="_blank">《读陆放翁集》<span>梁启超</span></a></li>
+                                    </ul>
+            </div>
+                        <div class="mark_card">
+                <a href="/shicimark/huaigushi.html" target="_blank"><img src="/pics/600/600/rand/1568943395175.jpg"></a>
+                <h3><a href="/shicimark/huaigushi.html" target="_blank">怀古诗</a></h3>
+                <ul>
+                                        <li><a href="/chaxun/list/3227.html" target="_blank">《咏苎萝山/西施》<span>李白</span></a></li>
+                                        <li><a href="/chaxun/list/3261.html" target="_blank">《赤壁》<span>杜牧</span></a></li>
+                                        <li><a href="/chaxun/list/3710.html" target="_blank">《念奴娇·赤壁怀古》<span>苏轼</span></a></li>
+                                    </ul>
+            </div>
+                        <div class="mark_card">
+                <a href="/shicimark/gushishijiushou.html" target="_blank"><img src="/pics/600/600/rand/1568943433924.jpg"></a>
+                <h3><a href="/shicimark/gushishijiushou.html" target="_blank">古诗十九首</a></h3>
+                <ul>
+                                        <li><a href="/chaxun/list/15601.html" target="_blank">《古诗十九首(青青河畔草)》<span>汉无名氏</span></a></li>
+                                        <li><a href="/chaxun/list/18006.html" target="_blank">《拟明月何皎皎》<span>陆机</span></a></li>
+                                        <li><a href="/chaxun/list/1119076.html" target="_blank">《拟行行重行行诗》<span>陆机</span></a></li>
+                                    </ul>
+            </div>
+                        <div class="mark_card">
+                <a href="/shicimark/jilvshi.html" target="_blank"><img src="/pics/600/600/rand/1568943520409.jpg"></a>
+                <h3><a href="/shicimark/jilvshi.html" target="_blank">羁旅诗</a></h3>
+                <ul>
+                                        <li><a href="/chaxun/list/3086.html" target="_blank">《天净沙·秋思》<span>马致远</span></a></li>
+                                        <li><a href="/chaxun/list/19466.html" target="_blank">《渡河北》<span>王褒</span></a></li>
+                                        <li><a href="/chaxun/list/22177.html" target="_blank">《除夜有怀》<span>崔涂</span></a></li>
+                                    </ul>
+            </div>
+                        <div class="mark_card">
+                <a href="/shicimark/yongshishi.html" target="_blank"><img src="/pics/600/600/rand/1568943559625.jpg"></a>
+                <h3><a href="/shicimark/yongshishi.html" target="_blank">咏史诗</a></h3>
+                <ul>
+                                        <li><a href="/chaxun/list/3261.html" target="_blank">《赤壁》<span>杜牧</span></a></li>
+                                        <li><a href="/chaxun/list/3710.html" target="_blank">《念奴娇·赤壁怀古》<span>苏轼</span></a></li>
+                                        <li><a href="/chaxun/list/4148.html" target="_blank">《登金陵凤凰台》<span>李白</span></a></li>
+                                    </ul>
+            </div>
+                        <div class="mark_card">
+                <a href="/shicimark/huaicaibuyu.html" target="_blank"><img src="/pics/600/600/rand/1568943593911.jpg"></a>
+                <h3><a href="/shicimark/huaicaibuyu.html" target="_blank">怀才不遇</a></h3>
+                <ul>
+                                        <li><a href="/chaxun/list/3710.html" target="_blank">《念奴娇·赤壁怀古》<span>苏轼</span></a></li>
+                                        <li><a href="/chaxun/list/4184.html" target="_blank">《古柏行》<span>杜甫</span></a></li>
+                                        <li><a href="/chaxun/list/4931.html" target="_blank">《秋宿湘江遇雨》<span>谭用之</span></a></li>
+                                    </ul>
+            </div>
+                        <div class="mark_card">
+                <a href="/shicimark/yulishi.html" target="_blank"><img src="/pics/600/600/rand/1568943601918.jpg"></a>
+                <h3><a href="/shicimark/yulishi.html" target="_blank">寓理诗</a></h3>
+                <ul>
+                                        <li><a href="/chaxun/list/5416.html" target="_blank">《感遇》<span>张九龄</span></a></li>
+                                        <li><a href="/chaxun/list/5444.html" target="_blank">《硕鼠》<span>诗经</span></a></li>
+                                        <li><a href="/chaxun/list/9529.html" target="_blank">《伐柯》<span>诗经</span></a></li>
+                                    </ul>
+            </div>
+                        <div class="mark_card">
+                <a href="/shicimark/youguoyoumin.html" target="_blank"><img src="/pics/600/600/rand/1568943635861.jpg"></a>
+                <h3><a href="/shicimark/youguoyoumin.html" target="_blank">忧国忧民</a></h3>
+                <ul>
+                                        <li><a href="/chaxun/list/2973.html" target="_blank">《出塞》<span>王昌龄</span></a></li>
+                                        <li><a href="/chaxun/list/2978.html" target="_blank">《田家》<span>聂夷中</span></a></li>
+                                        <li><a href="/chaxun/list/3142.html" target="_blank">《示儿》<span>陆游</span></a></li>
+                                    </ul>
+            </div>
+                        <div class="mark_card">
+                <a href="/shicimark/rensheng.html" target="_blank"><img src="/pics/600/600/rand/1568943713393.jpg"></a>
+                <h3><a href="/shicimark/rensheng.html" target="_blank">人生</a></h3>
+                <ul>
+                                        <li><a href="/chaxun/list/3710.html" target="_blank">《念奴娇·赤壁怀古》<span>苏轼</span></a></li>
+                                        <li><a href="/chaxun/list/5003.html" target="_blank">《和子由渑池怀旧》<span>苏轼</span></a></li>
+                                        <li><a href="/chaxun/list/5583.html" target="_blank">《野田黄雀行》<span>曹植</span></a></li>
+                                    </ul>
+            </div>
+                        <div class="mark_card">
+                <a href="/shicimark/beifen.html" target="_blank"><img src="/pics/600/600/rand/1568944286066.jpg"></a>
+                <h3><a href="/shicimark/beifen.html" target="_blank">悲愤</a></h3>
+                <ul>
+                                        <li><a href="/chaxun/list/5051.html" target="_blank">《伤春》<span>陈与义</span></a></li>
+                                        <li><a href="/chaxun/list/44723.html" target="_blank">《雁儿落带过得胜令》<span>元无名氏</span></a></li>
+                                        <li><a href="/chaxun/list/45489.html" target="_blank">《别云间》<span>夏完淳</span></a></li>
+                                    </ul>
+            </div>
+                        <div class="mark_card">
+                <a href="/shicimark/gudu.html" target="_blank"><img src="/pics/600/600/rand/1568944319198.jpg"></a>
+                <h3><a href="/shicimark/gudu.html" target="_blank">孤独</a></h3>
+                <ul>
+                                        <li><a href="/chaxun/list/3638.html" target="_blank">《声声慢·寻寻觅觅》<span>李清照</span></a></li>
+                                        <li><a href="/chaxun/list/3816.html" target="_blank">《独坐敬亭山》<span>李白</span></a></li>
+                                        <li><a href="/chaxun/list/3846.html" target="_blank">《竹里馆》<span>王维</span></a></li>
+                                    </ul>
+            </div>
+                        <div class="mark_card">
+                <a href="/shicimark/fengcishi.html" target="_blank"><img src="/pics/600/600/rand/1568944382256.jpg"></a>
+                <h3><a href="/shicimark/fengcishi.html" target="_blank">讽刺诗</a></h3>
+                <ul>
+                                        <li><a href="/chaxun/list/2978.html" target="_blank">《田家》<span>聂夷中</span></a></li>
+                                        <li><a href="/chaxun/list/3065.html" target="_blank">《题临安邸》<span>林升</span></a></li>
+                                        <li><a href="/chaxun/list/3856.html" target="_blank">《咏史》<span>高适</span></a></li>
+                                    </ul>
+            </div>
+                        <div class="mark_card">
+                <a href="/shicimark/laodong.html" target="_blank"><img src="/pics/600/600/rand/1568947783176.jpg"></a>
+                <h3><a href="/shicimark/laodong.html" target="_blank">劳动</a></h3>
+                <ul>
+                                        <li><a href="/chaxun/list/4538.html" target="_blank">《乡村四月》<span>翁卷</span></a></li>
+                                        <li><a href="/chaxun/list/9445.html" target="_blank">《东门之池》<span>诗经</span></a></li>
+                                        <li><a href="/chaxun/list/26194.html" target="_blank">《秋浦歌十七首》<span>李白</span></a></li>
+                                    </ul>
+            </div>
+                        <div class="mark_card">
+                <a href="/shicimark/zhuangzhinanchou.html" target="_blank"><img src="/pics/600/600/rand/1568947742394.jpg"></a>
+                <h3><a href="/shicimark/zhuangzhinanchou.html" target="_blank">壮志难酬</a></h3>
+                <ul>
+                                        <li><a href="/chaxun/list/17985.html" target="_blank">《猛虎行》<span>陆机</span></a></li>
+                                        <li><a href="/chaxun/list/18151.html" target="_blank">《咏怀（其十五）》<span>阮籍</span></a></li>
+                                        <li><a href="/chaxun/list/26067.html" target="_blank">《洛阳陌》<span>李白</span></a></li>
+                                    </ul>
+            </div>
+                        <div style="clear: both"></div>
+        </div>
+    </div>
+    <div  id="main_right">
+        
+        <div class="card hc_other_zuozhe"><div class="aside_title">推荐作者</div>
+	<ul>
+		        <li><a href="/chaxun/zuozhe/1.html">李白</a></li>
+    	        <li><a href="/chaxun/zuozhe/9.html">苏轼</a></li>
+    	        <li><a href="/chaxun/zuozhe/13046.html">诗经</a></li>
+    	        <li><a href="/chaxun/zuozhe/91.html">毛泽东</a></li>
+    	        <li><a href="/chaxun/zuozhe/77.html">李清照</a></li>
+    	        <li><a href="/chaxun/zuozhe/10.html">杜甫</a></li>
+    	        <li><a href="/chaxun/zuozhe/44.html">辛弃疾</a></li>
+    	        <li><a href="/chaxun/zuozhe/43.html">李煜</a></li>
+    	        <li><a href="/chaxun/zuozhe/8.html">白居易</a></li>
+    	        <li><a href="/chaxun/zuozhe/6.html">王维</a></li>
+    	        <li><a href="/chaxun/zuozhe/11.html">李商隐</a></li>
+    	        <li><a href="/chaxun/zuozhe/29.html">纳兰性德</a></li>
+    	        <li><a href="/chaxun/zuozhe/46.html">陆游</a></li>
+    	        <li><a href="/chaxun/zuozhe/81.html">柳永</a></li>
+    	        <li><a href="/chaxun/zuozhe/45.html">陶渊明</a></li>
+    	        <li><a href="/chaxun/zuozhe/22.html">杜牧</a></li>
+    	        <li><a href="/chaxun/zuozhe/113.html">曹雪芹</a></li>
+    	        <li><a href="/chaxun/zuozhe/39.html">曹操</a></li>
+    	        <li><a href="/chaxun/zuozhe/67.html">屈原</a></li>
+    	        <li><a href="/chaxun/zuozhe/15.html">李贺</a></li>
+    	        <li><a href="/chaxun/zuozhe/30.html">孟浩然</a></li>
+    	        <li><a href="/chaxun/zuozhe/115.html">欧阳修</a></li>
+    	        <li><a href="/chaxun/zuozhe/42.html">刘禹锡</a></li>
+    	        <li><a href="/chaxun/zuozhe/26.html">王安石</a></li>
+    	        <li><a href="/chaxun/zuozhe/38.html">秦观</a></li>
+    	        <li><a href="/chaxun/zuozhe/666.html">唐寅</a></li>
+    	        <li><a href="/chaxun/zuozhe/20.html">晏殊</a></li>
+    	        <li><a href="/chaxun/zuozhe/13.html">鲁迅</a></li>
+    	        <li><a href="/chaxun/zuozhe/66.html">曹植</a></li>
+    	        <li><a href="/chaxun/zuozhe/27.html">温庭筠</a></li>
+    	        <li><a href="/chaxun/zuozhe/56.html">王昌龄</a></li>
+    	        <li><a href="/chaxun/zuozhe/129.html">范仲淹</a></li>
+    	        <li><a href="/chaxun/zuozhe/25.html">王勃</a></li>
+    	        <li><a href="/chaxun/zuozhe/54.html">杨万里</a></li>
+    	        <li><a href="/chaxun/zuozhe/5.html">张九龄</a></li>
+    	        <li><a href="/chaxun/zuozhe/4623.html">仓央嘉措</a></li>
+    	        <li><a href="/chaxun/zuozhe/3.html">岑参</a></li>
+    	        <li><a href="/chaxun/zuozhe/117.html">晏几道</a></li>
+    	        <li><a href="/chaxun/zuozhe/99.html">元稹</a></li>
+    	        <li><a href="/chaxun/zuozhe/50.html">柳宗元</a></li>
+    	        <li><a href="/chaxun/zuozhe/28.html">韩愈</a></li>
+    	        <li><a href="/chaxun/zuozhe/223.html">岳飞</a></li>
+    	        <li><a href="/chaxun/zuozhe/53.html">骆宾王</a></li>
+    	        <li><a href="/chaxun/zuozhe/122.html">鱼玄机</a></li>
+    	        <li><a href="/chaxun/zuozhe/32.html">贺知章</a></li>
+    	        <li><a href="/chaxun/zuozhe/37.html">范成大</a></li>
+    	        <li><a href="/chaxun/zuozhe/530.html">姜夔</a></li>
+    	        <li><a href="/chaxun/zuozhe/4.html">张若虚</a></li>
+    	        <li><a href="/chaxun/zuozhe/96.html">黄庭坚</a></li>
+    	        <li><a href="/chaxun/zuozhe/69.html">文天祥</a></li>
+    	        <li><a href="/chaxun/zuozhe/60.html">韦应物</a></li>
+    	        <li><a href="/chaxun/zuozhe/24.html">李世民</a></li>
+    	        <li><a href="/chaxun/zuozhe/744.html">王国维</a></li>
+    	        <li><a href="/chaxun/zuozhe/51.html">王之涣</a></li>
+    	        <li><a href="/chaxun/zuozhe/251.html">朱淑真</a></li>
+    	        <li><a href="/chaxun/zuozhe/125.html">周邦彦</a></li>
+    	        <li><a href="/chaxun/zuozhe/102.html">龚自珍</a></li>
+    	        <li><a href="/chaxun/zuozhe/4676.html">周恩来</a></li>
+    	        <li><a href="/chaxun/zuozhe/146.html">元好问</a></li>
+    	        <li><a href="/chaxun/zuozhe/136.html">罗隐</a></li>
+    	        <div style="clear: both"></div>
+    </ul>
+</div>
+
+        
+    </div>
+    <div style="clear: both;"></div>
+</div><a href="javascript:toTop();"><div id="toTop">顶部</div></a>
+<div id="footer">
+    <div id="footer_main">
+        <div id="bottom_nav">
+            <a href="/category/story">诗人故事</a>
+            <a href="/category/xiehouyu">歇后语</a>
+            <a href="/category/miyu">谜语</a>
+            <a href="/category/duilian">对联</a>
+                        Copyright © 2010-2020 <a href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank">琼ICP备2021009280号-1</a> 
+                    </div>
+    </div>
+</div>
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?649f268280b553df1f778477ee743752";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+</body>
+</html>

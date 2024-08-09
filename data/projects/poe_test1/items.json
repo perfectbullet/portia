@@ -1,0 +1,28 @@
+{
+    "76ab-487d-8293": {
+        "fields": {
+            "da11-48d9-a911": {
+                "id": "da11-48d9-a911", 
+                "name": "names", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "8e77-4d7d-9c9c": {
+                "id": "8e77-4d7d-9c9c", 
+                "name": "image_path", 
+                "required": false, 
+                "type": "image", 
+                "vary": false
+            }, 
+            "49c5-4743-94a7": {
+                "id": "49c5-4743-94a7", 
+                "name": "inner_url", 
+                "required": false, 
+                "type": "url", 
+                "vary": false
+            }
+        }, 
+        "name": "_"
+    }
+}

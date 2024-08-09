@@ -1,0 +1,21 @@
+version: '3'
+services:
+  app:
+    build: .
+    # image: scrapinghub/portia:latest
+    container_name: portia_zj
+    command: /app/docker/entry start-dev
+    volumes:
+      - ./data/projects:/app/data/projects:rw
+      #- ./portiaui/dist:/app/portiaui/dist
+      - ./slyd:/app/slyd:rw
+      - ./portia_server:/app/portia_server:rw
+      - ./slybot:/app/slybot:rw
+      - ./portia2code-master:/app/portia2code-master:rw
+      #- ./docker/nginx:/etc/nginx
+    ports:
+      - 9001:9001
+      - 9002:9002
+      - 9003:9003
+      - 8001:8000
+    restart: always

@@ -1,0 +1,35 @@
+{
+    "c6a0-4ff2-9fab": {
+        "fields": {
+            "04b4-459f-afa2": {
+                "id": "04b4-459f-afa2", 
+                "name": "photo", 
+                "required": false, 
+                "type": "image", 
+                "vary": false
+            }, 
+            "e608-4b2f-930d": {
+                "id": "e608-4b2f-930d", 
+                "name": "name", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "7366-4ed7-8f45": {
+                "id": "7366-4ed7-8f45", 
+                "name": "intro", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "472c-4294-b125": {
+                "id": "472c-4294-b125", 
+                "name": "words", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }
+        }, 
+        "name": "zhenaiZJ"
+    }
+}

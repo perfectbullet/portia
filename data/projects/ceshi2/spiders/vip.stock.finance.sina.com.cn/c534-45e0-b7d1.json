@@ -1,0 +1,32 @@
+{
+    "extractors": {}, 
+    "id": "c534-45e0-b7d1", 
+    "name": "__", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "3701-4310-9359", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "4051-4a2f-a598", 
+                    "selector": null, 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "4051-4a2f-a598", 
+    "spider": "vip.stock.finance.sina.com.cn", 
+    "url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/001379.phtml", 
+    "version": "0.13.3"
+}

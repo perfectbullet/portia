@@ -1,0 +1,42 @@
+{
+    "3ca4-4ac1-8e9d": {
+        "fields": {
+            "1c67-4820-9369": {
+                "id": "1c67-4820-9369", 
+                "name": "names", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "1bf7-471d-bcb7": {
+                "id": "1bf7-471d-bcb7", 
+                "name": "author", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "39e6-4802-8a9a": {
+                "id": "39e6-4802-8a9a", 
+                "name": "dynasty", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "4699-40f7-ac01": {
+                "id": "4699-40f7-ac01", 
+                "name": "poe_content", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "1123-4d73-99d9": {
+                "id": "1123-4d73-99d9", 
+                "name": "tags", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }
+        }, 
+        "name": "poe_data"
+    }
+}

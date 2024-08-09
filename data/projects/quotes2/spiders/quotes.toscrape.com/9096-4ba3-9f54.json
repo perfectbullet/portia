@@ -1,0 +1,123 @@
+{
+    "extractors": {}, 
+    "id": "9096-4ba3-9f54", 
+    "name": "Quotes to Scrape", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "cc91-4dc8-ba9b#parent", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "a3eb-4bd6-ac3d", 
+                    "selector": ".row:nth-child(2) > .col-md-8", 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": "cc91-4dc8-ba9b#parent", 
+                    "id": "cc91-4dc8-ba9b", 
+                    "item_container": true, 
+                    "repeated": true, 
+                    "required": [], 
+                    "schema_id": "a3eb-4bd6-ac3d", 
+                    "selector": ".quote", 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".quote:nth-child(1) > .text", 
+                        ".quote:nth-child(2) > .text"
+                    ], 
+                    "container_id": "cc91-4dc8-ba9b", 
+                    "data": {
+                        "91b3-48cd-a11e": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "7cd3-4927-a79b", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "6692-4a24-ae49", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": ".quote > .text", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" quote \")]/*[contains(concat(\" \", @class, \" \"), \" text \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".quote:nth-child(1) > span:nth-child(2) > .author"
+                    ], 
+                    "container_id": "cc91-4dc8-ba9b", 
+                    "data": {
+                        "762e-4ad5-847a": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "a1f6-4bd6-b40d", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "b687-4a5d-8ba8", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": ".quote > span:nth-child(2) > .author", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" quote \")]/span[2]/*[contains(concat(\" \", @class, \" \"), \" author \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".quote:nth-child(1) > .tags"
+                    ], 
+                    "container_id": "cc91-4dc8-ba9b", 
+                    "data": {
+                        "a21f-425b-9ee8": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "3dbd-4484-9100", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "8a0c-402b-92a3", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": ".quote > .tags", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" quote \")]/*[contains(concat(\" \", @class, \" \"), \" tags \")]"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "a3eb-4bd6-ac3d", 
+    "spider": "quotes.toscrape.com", 
+    "url": "https://quotes.toscrape.com/", 
+    "version": "0.13.3"
+}

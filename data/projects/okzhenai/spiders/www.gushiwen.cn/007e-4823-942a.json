@@ -1,0 +1,173 @@
+{
+    "extractors": {}, 
+    "id": "007e-4823-942a", 
+    "name": "-", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "c315-47de-8952#parent", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "edf2-4205-9137", 
+                    "selector": ".main3 > .left", 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": "c315-47de-8952#parent", 
+                    "id": "c315-47de-8952", 
+                    "item_container": true, 
+                    "repeated": true, 
+                    "required": [], 
+                    "schema_id": "edf2-4205-9137", 
+                    "selector": ".main3 > .left > div:nth-child(2), .main3 > .left > div:nth-child(4), .main3 > .left > div:nth-child(9), .main3 > .left > div:nth-child(11), .main3 > .left > div:nth-child(13), .main3 > .left > div:nth-child(18), .main3 > .left > div:nth-child(21), .main3 > .left > div:nth-child(23), .main3 > .left > div:nth-child(27), .main3 > .left > div:nth-child(29)", 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#zhengwen747b99a0aba4 > p:nth-child(1) > a > b", 
+                        "#zhengwen32ae3226fe3d > p:nth-child(1) > a > b"
+                    ], 
+                    "container_id": "c315-47de-8952", 
+                    "data": {
+                        "bc80-43a3-a466": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "6d3d-468f-8580", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "f20e-44c0-8a05", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": ".main3 > .left > div:nth-child(2) > .cont > div:nth-child(2) > p:nth-child(1) > a > b,.main3 > .left > div:nth-child(4) > .cont > div:nth-child(2) > p:nth-child(1) > a > b,.main3 > .left > div:nth-child(9) > .cont > div:nth-child(2) > p:nth-child(1) > a > b,.main3 > .left > div:nth-child(11) > .cont > div:nth-child(2) > p:nth-child(1) > a > b,.main3 > .left > div:nth-child(13) > .cont > div:nth-child(2) > p:nth-child(1) > a > b,.main3 > .left > div:nth-child(18) > .cont > div:nth-child(2) > p:nth-child(1) > a > b,.main3 > .left > div:nth-child(21) > .cont > div:nth-child(2) > p:nth-child(1) > a > b,.main3 > .left > div:nth-child(23) > .cont > div:nth-child(2) > p:nth-child(1) > a > b,.main3 > .left > div:nth-child(27) > .cont > div:nth-child(2) > p:nth-child(1) > a > b,.main3 > .left > div:nth-child(29) > .cont > div:nth-child(2) > p:nth-child(1) > a > b", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" main3 \")]/*[contains(concat(\" \", @class, \" \"), \" left \")]/div[2]/*[contains(concat(\" \", @class, \" \"), \" cont \")]/div[2]/p[1]/a//*[contains(concat(\" \", @class, \" \"), \" left \")]/div[4]/*[contains(concat(\" \", @class, \" \"), \" cont \")]/div[2]/p[1]/a//*[contains(concat(\" \", @class, \" \"), \" left \")]/div[9]/*[contains(concat(\" \", @class, \" \"), \" cont \")]/div[2]/p[1]/a//*[contains(concat(\" \", @class, \" \"), \" left \")]/div[11]/*[contains(concat(\" \", @class, \" \"), \" cont \")]/div[2]/p[1]/a//*[contains(concat(\" \", @class, \" \"), \" left \")]/div[13]/*[contains(concat(\" \", @class, \" \"), \" cont \")]/div[2]/p[1]/a//*[contains(concat(\" \", @class, \" \"), \" left \")]/div[18]/*[contains(concat(\" \", @class, \" \"), \" cont \")]/div[2]/p[1]/a//*[contains(concat(\" \", @class, \" \"), \" left \")]/div[21]/*[contains(concat(\" \", @class, \" \"), \" cont \")]/div[2]/p[1]/a//*[contains(concat(\" \", @class, \" \"), \" left \")]/div[23]/*[contains(concat(\" \", @class, \" \"), \" cont \")]/div[2]/p[1]/a//*[contains(concat(\" \", @class, \" \"), \" left \")]/div[27]/*[contains(concat(\" \", @class, \" \"), \" cont \")]/div[2]/p[1]/a//*[contains(concat(\" \", @class, \" \"), \" left \")]/div[29]/*[contains(concat(\" \", @class, \" \"), \" cont \")]/div[2]/p[1]/a/b"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#zhengwen747b99a0aba4 > .source > a:nth-child(1)"
+                    ], 
+                    "container_id": "c315-47de-8952", 
+                    "data": {
+                        "eb5b-4ca3-8455": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "b6e3-4656-a743", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "9627-43e8-bc00", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": ".main3 > .left > div:nth-child(2) > .cont > div:nth-child(2) > .source > a:nth-child(1),.main3 > .left > div:nth-child(4) > .cont > div:nth-child(2) > .source > a:nth-child(1),.main3 > .left > div:nth-child(9) > .cont > div:nth-child(2) > .source > a:nth-child(1),.main3 > .left > div:nth-child(11) > .cont > div:nth-child(2) > .source > a:nth-child(1),.main3 > .left > div:nth-child(13) > .cont > div:nth-child(2) > .source > a:nth-child(1),.main3 > .left > div:nth-child(18) > .cont > div:nth-child(2) > .source > a:nth-child(1),.main3 > .left > div:nth-child(21) > .cont > div:nth-child(2) > .source > a:nth-child(1),.main3 > .left > div:nth-child(23) > .cont > div:nth-child(2) > .source > a:nth-child(1),.main3 > .left > div:nth-child(27) > .cont > div:nth-child(2) > .source > a:nth-child(1),.main3 > .left > div:nth-child(29) > .cont > div:nth-child(2) > .source > a:nth-child(1)", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" main3 \")]/*[contains(concat(\" \", @class, \" \"), \" left \")]/div[2]/*[contains(concat(\" \", @class, \" \"), \" cont \")]/div[2]/*[contains(concat(\" \", @class, \" \"), \" source \")]//*[contains(concat(\" \", @class, \" \"), \" left \")]/div[4]/*[contains(concat(\" \", @class, \" \"), \" cont \")]/div[2]/*[contains(concat(\" \", @class, \" \"), \" source \")]//*[contains(concat(\" \", @class, \" \"), \" left \")]/div[9]/*[contains(concat(\" \", @class, \" \"), \" cont \")]/div[2]/*[contains(concat(\" \", @class, \" \"), \" source \")]//*[contains(concat(\" \", @class, \" \"), \" left \")]/div[11]/*[contains(concat(\" \", @class, \" \"), \" cont \")]/div[2]/*[contains(concat(\" \", @class, \" \"), \" source \")]//*[contains(concat(\" \", @class, \" \"), \" left \")]/div[13]/*[contains(concat(\" \", @class, \" \"), \" cont \")]/div[2]/*[contains(concat(\" \", @class, \" \"), \" source \")]//*[contains(concat(\" \", @class, \" \"), \" left \")]/div[18]/*[contains(concat(\" \", @class, \" \"), \" cont \")]/div[2]/*[contains(concat(\" \", @class, \" \"), \" source \")]//*[contains(concat(\" \", @class, \" \"), \" left \")]/div[21]/*[contains(concat(\" \", @class, \" \"), \" cont \")]/div[2]/*[contains(concat(\" \", @class, \" \"), \" source \")]//*[contains(concat(\" \", @class, \" \"), \" left \")]/div[23]/*[contains(concat(\" \", @class, \" \"), \" cont \")]/div[2]/*[contains(concat(\" \", @class, \" \"), \" source \")]//*[contains(concat(\" \", @class, \" \"), \" left \")]/div[27]/*[contains(concat(\" \", @class, \" \"), \" cont \")]/div[2]/*[contains(concat(\" \", @class, \" \"), \" source \")]//*[contains(concat(\" \", @class, \" \"), \" left \")]/div[29]/*[contains(concat(\" \", @class, \" \"), \" cont \")]/div[2]/*[contains(concat(\" \", @class, \" \"), \" source \")]/a[1]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#zhengwen747b99a0aba4 > .source > a:nth-child(2)"
+                    ], 
+                    "container_id": "c315-47de-8952", 
+                    "data": {
+                        "2bd8-4087-9d18": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "0788-44b9-baa5", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "9132-491d-8123", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": ".main3 > .left > div:nth-child(2) > .cont > div:nth-child(2) > .source > a:nth-child(2),.main3 > .left > div:nth-child(4) > .cont > div:nth-child(2) > .source > a:nth-child(2),.main3 > .left > div:nth-child(9) > .cont > div:nth-child(2) > .source > a:nth-child(2),.main3 > .left > div:nth-child(11) > .cont > div:nth-child(2) > .source > a:nth-child(2),.main3 > .left > div:nth-child(13) > .cont > div:nth-child(2) > .source > a:nth-child(2),.main3 > .left > div:nth-child(18) > .cont > div:nth-child(2) > .source > a:nth-child(2),.main3 > .left > div:nth-child(21) > .cont > div:nth-child(2) > .source > a:nth-child(2),.main3 > .left > div:nth-child(23) > .cont > div:nth-child(2) > .source > a:nth-child(2),.main3 > .left > div:nth-child(27) > .cont > div:nth-child(2) > .source > a:nth-child(2),.main3 > .left > div:nth-child(29) > .cont > div:nth-child(2) > .source > a:nth-child(2)", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" main3 \")]/*[contains(concat(\" \", @class, \" \"), \" left \")]/div[2]/*[contains(concat(\" \", @class, \" \"), \" cont \")]/div[2]/*[contains(concat(\" \", @class, \" \"), \" source \")]//*[contains(concat(\" \", @class, \" \"), \" left \")]/div[4]/*[contains(concat(\" \", @class, \" \"), \" cont \")]/div[2]/*[contains(concat(\" \", @class, \" \"), \" source \")]//*[contains(concat(\" \", @class, \" \"), \" left \")]/div[9]/*[contains(concat(\" \", @class, \" \"), \" cont \")]/div[2]/*[contains(concat(\" \", @class, \" \"), \" source \")]//*[contains(concat(\" \", @class, \" \"), \" left \")]/div[11]/*[contains(concat(\" \", @class, \" \"), \" cont \")]/div[2]/*[contains(concat(\" \", @class, \" \"), \" source \")]//*[contains(concat(\" \", @class, \" \"), \" left \")]/div[13]/*[contains(concat(\" \", @class, \" \"), \" cont \")]/div[2]/*[contains(concat(\" \", @class, \" \"), \" source \")]//*[contains(concat(\" \", @class, \" \"), \" left \")]/div[18]/*[contains(concat(\" \", @class, \" \"), \" cont \")]/div[2]/*[contains(concat(\" \", @class, \" \"), \" source \")]//*[contains(concat(\" \", @class, \" \"), \" left \")]/div[21]/*[contains(concat(\" \", @class, \" \"), \" cont \")]/div[2]/*[contains(concat(\" \", @class, \" \"), \" source \")]//*[contains(concat(\" \", @class, \" \"), \" left \")]/div[23]/*[contains(concat(\" \", @class, \" \"), \" cont \")]/div[2]/*[contains(concat(\" \", @class, \" \"), \" source \")]//*[contains(concat(\" \", @class, \" \"), \" left \")]/div[27]/*[contains(concat(\" \", @class, \" \"), \" cont \")]/div[2]/*[contains(concat(\" \", @class, \" \"), \" source \")]//*[contains(concat(\" \", @class, \" \"), \" left \")]/div[29]/*[contains(concat(\" \", @class, \" \"), \" cont \")]/div[2]/*[contains(concat(\" \", @class, \" \"), \" source \")]/a[2]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#contson747b99a0aba4"
+                    ], 
+                    "container_id": "c315-47de-8952", 
+                    "data": {
+                        "42d4-4691-89cf": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "ab26-4e2c-abdd", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "c888-4da4-bbd2", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": ".main3 > .left > div:nth-child(2) > .cont > div:nth-child(2) > .contson,.main3 > .left > div:nth-child(4) > .cont > div:nth-child(2) > .contson,.main3 > .left > div:nth-child(9) > .cont > div:nth-child(2) > .contson,.main3 > .left > div:nth-child(11) > .cont > div:nth-child(2) > .contson,.main3 > .left > div:nth-child(13) > .cont > div:nth-child(2) > .contson,.main3 > .left > div:nth-child(18) > .cont > div:nth-child(2) > .contson,.main3 > .left > div:nth-child(21) > .cont > div:nth-child(2) > .contson,.main3 > .left > div:nth-child(23) > .cont > div:nth-child(2) > .contson,.main3 > .left > div:nth-child(27) > .cont > div:nth-child(2) > .contson,.main3 > .left > div:nth-child(29) > .cont > div:nth-child(2) > .contson", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" main3 \")]/*[contains(concat(\" \", @class, \" \"), \" left \")]/div[2]/*[contains(concat(\" \", @class, \" \"), \" cont \")]/div[2]/*[contains(concat(\" \", @class, \" \"), \" contson,.main3 \")]/*[contains(concat(\" \", @class, \" \"), \" left \")]/div[4]/*[contains(concat(\" \", @class, \" \"), \" cont \")]/div[2]/*[contains(concat(\" \", @class, \" \"), \" contson,.main3 \")]/*[contains(concat(\" \", @class, \" \"), \" left \")]/div[9]/*[contains(concat(\" \", @class, \" \"), \" cont \")]/div[2]/*[contains(concat(\" \", @class, \" \"), \" contson,.main3 \")]/*[contains(concat(\" \", @class, \" \"), \" left \")]/div[11]/*[contains(concat(\" \", @class, \" \"), \" cont \")]/div[2]/*[contains(concat(\" \", @class, \" \"), \" contson,.main3 \")]/*[contains(concat(\" \", @class, \" \"), \" left \")]/div[13]/*[contains(concat(\" \", @class, \" \"), \" cont \")]/div[2]/*[contains(concat(\" \", @class, \" \"), \" contson,.main3 \")]/*[contains(concat(\" \", @class, \" \"), \" left \")]/div[18]/*[contains(concat(\" \", @class, \" \"), \" cont \")]/div[2]/*[contains(concat(\" \", @class, \" \"), \" contson,.main3 \")]/*[contains(concat(\" \", @class, \" \"), \" left \")]/div[21]/*[contains(concat(\" \", @class, \" \"), \" cont \")]/div[2]/*[contains(concat(\" \", @class, \" \"), \" contson,.main3 \")]/*[contains(concat(\" \", @class, \" \"), \" left \")]/div[23]/*[contains(concat(\" \", @class, \" \"), \" cont \")]/div[2]/*[contains(concat(\" \", @class, \" \"), \" contson,.main3 \")]/*[contains(concat(\" \", @class, \" \"), \" left \")]/div[27]/*[contains(concat(\" \", @class, \" \"), \" cont \")]/div[2]/*[contains(concat(\" \", @class, \" \"), \" contson,.main3 \")]/*[contains(concat(\" \", @class, \" \"), \" left \")]/div[29]/*[contains(concat(\" \", @class, \" \"), \" cont \")]/div[2]/*[contains(concat(\" \", @class, \" \"), \" contson \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".sons:nth-child(2) > .tag"
+                    ], 
+                    "container_id": "c315-47de-8952", 
+                    "data": {
+                        "6b90-4ff6-8939": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "77e3-41e4-8ded", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "d93b-4ad4-a656", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": ".main3 > .left > div:nth-child(2) > .tag,.main3 > .left > div:nth-child(4) > .tag,.main3 > .left > div:nth-child(9) > .tag,.main3 > .left > div:nth-child(11) > .tag,.main3 > .left > div:nth-child(13) > .tag,.main3 > .left > div:nth-child(18) > .tag,.main3 > .left > div:nth-child(21) > .tag,.main3 > .left > div:nth-child(23) > .tag,.main3 > .left > div:nth-child(27) > .tag,.main3 > .left > div:nth-child(29) > .tag", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" main3 \")]/*[contains(concat(\" \", @class, \" \"), \" left \")]/div[2]/*[contains(concat(\" \", @class, \" \"), \" tag,.main3 \")]/*[contains(concat(\" \", @class, \" \"), \" left \")]/div[4]/*[contains(concat(\" \", @class, \" \"), \" tag,.main3 \")]/*[contains(concat(\" \", @class, \" \"), \" left \")]/div[9]/*[contains(concat(\" \", @class, \" \"), \" tag,.main3 \")]/*[contains(concat(\" \", @class, \" \"), \" left \")]/div[11]/*[contains(concat(\" \", @class, \" \"), \" tag,.main3 \")]/*[contains(concat(\" \", @class, \" \"), \" left \")]/div[13]/*[contains(concat(\" \", @class, \" \"), \" tag,.main3 \")]/*[contains(concat(\" \", @class, \" \"), \" left \")]/div[18]/*[contains(concat(\" \", @class, \" \"), \" tag,.main3 \")]/*[contains(concat(\" \", @class, \" \"), \" left \")]/div[21]/*[contains(concat(\" \", @class, \" \"), \" tag,.main3 \")]/*[contains(concat(\" \", @class, \" \"), \" left \")]/div[23]/*[contains(concat(\" \", @class, \" \"), \" tag,.main3 \")]/*[contains(concat(\" \", @class, \" \"), \" left \")]/div[27]/*[contains(concat(\" \", @class, \" \"), \" tag,.main3 \")]/*[contains(concat(\" \", @class, \" \"), \" left \")]/div[29]/*[contains(concat(\" \", @class, \" \"), \" tag \")]"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "edf2-4205-9137", 
+    "spider": "www.gushiwen.cn", 
+    "url": "https://www.gushiwen.cn/", 
+    "version": "0.13.3"
+}

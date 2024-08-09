@@ -1,0 +1,49 @@
+{
+    "1b24-40b5-a825": {
+        "fields": {
+            "6259-48d3-9e73": {
+                "id": "6259-48d3-9e73", 
+                "name": "names", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "1bb7-416d-bf41": {
+                "id": "1bb7-416d-bf41", 
+                "name": "author", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "31cb-4e64-b11e": {
+                "id": "31cb-4e64-b11e", 
+                "name": "novel_type", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "a9d5-4911-b258": {
+                "id": "a9d5-4911-b258", 
+                "name": "desc", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "e328-4757-8f2c": {
+                "id": "e328-4757-8f2c", 
+                "name": "hot", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "ae0a-47db-ac13": {
+                "id": "ae0a-47db-ac13", 
+                "name": "detail_url", 
+                "required": false, 
+                "type": "url", 
+                "vary": false
+            }
+        }, 
+        "name": ""
+    }
+}

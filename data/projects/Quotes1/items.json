@@ -1,0 +1,28 @@
+{
+    "86ef-4a9b-bd32": {
+        "fields": {
+            "1138-49a9-aec8": {
+                "id": "1138-49a9-aec8", 
+                "name": "words", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "2b50-4dd6-8fc3": {
+                "id": "2b50-4dd6-8fc3", 
+                "name": "author", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "9941-42ef-8e6d": {
+                "id": "9941-42ef-8e6d", 
+                "name": "taglist", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }
+        }, 
+        "name": "Quotes to Scrape"
+    }
+}

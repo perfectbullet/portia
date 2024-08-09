@@ -1,0 +1,50 @@
+#!/usr/bin/env python
+
+import logging
+import os
+
+from portia2code.porter import load_project_data, port_project
+from portia2code.utils import _validate_identifier
+
+if __name__ == '__main__':
+    logging.basicConfig(format='%(asctime)s %(levelname)s: %(message)s',
+                        datefmt='%Y-%m-%d %H:%M:%S',
+                        level=logging.INFO)
+    import argparse
+    import sys
+    from slybot.utils import Storage
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--selector', help='which type of selector to output',
+                        choices=['css', 'xpath'], default='css')
+    parser.add_argument('from', help='directory of portia project')
+    parser.add_argument('to', default='.',
+                        help='directory to output converted project')
+    args = vars(parser.parse_args())
+
+    log = logging.getLogger(__name__)
+    project_dir = os.path.abspath(args['from'])
+    out_dir = os.path.abspath(args['to'])
+    dir_name = os.path.split(out_dir)[-1]
+    if dir_name.endswith('.zip'):
+        out_dir = os.path.abspath(os.path.dirname(dir_name))
+        dir_name = dir_name[:-len('.zip')]
+    if not _validate_identifier(dir_name):
+        raise ValueError('Output project name "%s" is not a valid name. Valid '
+                         'names should only contain number letters and '
+                         'underscores and may not start with a number' %
+                         dir_name)
+    if os.path.exists(out_dir) and os.path.isdir(out_dir):
+        out_path = os.path.join(out_dir, '%s.zip' % dir_name)
+    else:
+        raise ValueError('Output path "%s" does not exist' % out_dir)
+
+    # Port project from portia definitions to scrapy code
+    schemas, extractors, spiders = load_project_data(Storage(project_dir))
+    project_zip = port_project(
+        dir_name, schemas, spiders, extractors, args['selector']).read()
+    # Write contents to file
+    log.info('Writing project to "%s"', out_path)
+    with open(out_path, 'wb') as f:
+        f.write(project_zip)
+    log.info('Finished.')
+    sys.exit(0)

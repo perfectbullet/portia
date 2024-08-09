@@ -1,0 +1,21 @@
+{
+    "55e3-4131-8e71": {
+        "fields": {
+            "0833-42db-a9ff": {
+                "id": "0833-42db-a9ff", 
+                "name": "img_path", 
+                "required": false, 
+                "type": "image", 
+                "vary": false
+            }, 
+            "ff72-459f-881d": {
+                "id": "ff72-459f-881d", 
+                "name": "cates", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }
+        }, 
+        "name": "_"
+    }
+}
