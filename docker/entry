@@ -8,7 +8,7 @@ _run() {
   _set_env
   echo $PYTHONPATH
   /app/slyd/bin/slyd -p 9002 -r /app/portiaui/dist
-  # /app/portia_server/manage.py runserver 0.0.0.0:8000
+  /app/portia_server/manage.py runserver 0.0.0.0:8000
 }
 
 _set_env() {
