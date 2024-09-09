@@ -21,19 +21,19 @@ class ProxyResource(Resource):
     def render_GET(self, request):
         if not request.auth_info or not request.auth_info.get('username', None):
             return self._error(request, 403, 'Auth required')
-        for arg in (b'url', b'referer', b'tabid'):
+        for arg in ('url', 'referer', 'tabid'):
             if arg not in request.args or len(request.args[arg]) != 1:
                 return self._error(
-                    request, 400, b'Argument required: %s' % arg)
+                    request, 400, 'Argument required: %s' % arg)
 
-        url = request.args[b'url'][0]
+        url = request.args['url'][0]
         if is_blacklisted(url):
-            return self._error(request, 404, b'Not Found')
-        referer = request.args[b'referer'][0]
+            return self._error(request, 404, 'Not Found')
+        referer = request.args['referer'][0]
         try:
-            tabid = int(request.args[b'tabid'][0])
+            tabid = int(request.args['tabid'][0])
         except (ValueError, TypeError):
-            return self._error(request, 400, b'Tab must exist' % arg)
+            return self._error(request, 400, 'Tab must exist' % arg)
         return self._load_resource(request, url, referer, tabid)
 
     def _load_resource(self, request, url, referer, tabid=None):
@@ -119,16 +119,17 @@ class ProxyResource(Resource):
                 return self._load_resource(request, original_url, referer)
             request.setResponseCode(status_code or 500)
         else:
-            content = b''.join(chunk for chunk in reply.iter_content(65535))
+            content = ''.join(chunk for chunk in reply.iter_content(65535))
             request.setResponseCode(reply.status_code)
 
         headers = {
-            b'cache-control': b'private',
-            b'pragma': b'no-cache',
-            b'content-type': b'application/octet-stream',
+            'cache-control': 'private',
+            'pragma': 'no-cache',
+            'content-type': 'application/octet-stream',
+            # 'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36'
         }
-        for header in (b'content-type', b'cache-control', b'pragma', b'vary',
-                       b'max-age'):
+        for header in ('content-type', 'cache-control', 'pragma', 'vary',
+                       'max-age'):
             if hasattr(reply, 'hasRawHeader') and reply.hasRawHeader(header):
                 headers[header] = bytes(reply.rawHeader(header))
             elif hasattr(reply, 'headers') and header in reply.headers:
@@ -136,7 +137,7 @@ class ProxyResource(Resource):
             if header in headers:
                 request.setHeader(header, headers[header])
 
-        if bytes(headers[b'content-type']).strip().startswith(b'text/css'):
+        if bytes(headers['content-type']).strip().startswith('text/css'):
             content = encode(process_css(content, tabid, original_url))
         request.write(content)
         request.finish()

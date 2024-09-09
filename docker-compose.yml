@@ -7,7 +7,7 @@ services:
     command: /app/docker/entry start-dev
     volumes:
       - ./data/projects:/app/data/projects:rw
-      #- ./portiaui/dist:/app/portiaui/dist
+#      - ./portiaui/dist-zh-bak:/app/portiaui/dist
       - ./slyd:/app/slyd:rw
       - ./portia_server:/app/portia_server:rw
       - ./slybot:/app/slybot:rw
@@ -16,6 +16,6 @@ services:
     ports:
       - 9001:9001
       - 9002:9002
-#      - 9003:9003
-#      - 8001:8000
+      - 9003:9003
+      - 8000:8000
     restart: always
